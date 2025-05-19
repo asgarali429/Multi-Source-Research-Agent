@@ -1,0 +1,11 @@
+langchain_community
+langchain_huggingface
+youtube-transcript-api
+faiss-cpu
+tiktoken
+python-dotenv
+pymupdf
+pytube
+beautifulsoup4
+wikipedia
+streamlit
