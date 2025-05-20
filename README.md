@@ -31,10 +31,65 @@ Ask any research question — it pulls insights from PDFs, Wikipedia, and YouTub
 
 ---
 
-## 📦 Installation
+💡 Example Use Case
+Query:
+"Explain LangChain and its applications"
 
-1. **Clone this repo**
+Sources Used:
 
-```bash
-git clone https://github.com/yourusername/AI-Research-Agent.git
-cd AI-Research-Agent
+✅ Wikipedia page on LangChain
+
+✅ Uploaded PDF (LangChain whitepaper)
+
+✅ YouTube video transcript: LangChain for Developers
+
+Output:
+A short, clear summary citing each source with a reference like [1], [2], etc.
+
+📁 Project Structure
+Copy
+Edit
+AI-Research-Agent/
+├── app.py
+├── requirements.txt
+├── .env.example
+├── README.md
+├── assets/
+│   └── demo_screenshot.png
+└── notebooks/
+📸 Screenshot
+
+📝 License
+This project is licensed under the MIT License.
+
+🙏 Acknowledgements
+LangChain
+
+Hugging Face
+
+Streamlit
+
+YouTube Transcript API
+
+✍️ Author
+Your Name
+GitHub: @yourusername
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChatGPT c
