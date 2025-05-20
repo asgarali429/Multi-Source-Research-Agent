@@ -4,92 +4,115 @@
 **Multi-source Research Assistant** powered by **LangChain**, **LLMs**, and **Streamlit**.  
 Ask any research question — it pulls insights from PDFs, Wikipedia, and YouTube to generate a smart, concise answer with citations.
 
-![Demo](assets/demo_screenshot.png)
-
 ---
 
 ## 🚀 Features
 
-- ✅ Accepts a research question from the user
-- 📄 Loads and processes **PDFs**
-- 🌐 Gathers context from **Wikipedia**
-- 📺 Extracts **YouTube transcripts**
-- 🤖 Generates answers using **Hugging Face LLMs**
-- 📌 Outputs with **source citations** (Wikipedia, YouTube, PDF)
+- ✅ Accepts a user query for any research topic  
+- 📄 Extracts content from uploaded **PDFs**  
+- 🌐 Gathers information from **Wikipedia**  
+- 📺 Transcribes and analyzes **YouTube** videos  
+- 🧠 Uses **LLMs via Hugging Face** for intelligent summarization  
+- 📌 Provides answers with **source citations**  
 
 ---
 
 ## 🧠 Powered By
 
-- **LangChain** – For document loading, RAG, prompt chains
-- **Hugging Face** – Inference with `Mistral-7B-Instruct` via HuggingFaceHub
-- **FAISS** – For embedding search
-- **Streamlit** – Frontend web interface
-- **PyMuPDF** – PDF parsing
-- **YouTubeTranscriptAPI** – YouTube subtitle extraction
-- **WikipediaLoader** – Built-in LangChain loader
+- **LangChain** – Document loaders, prompt chaining, RAG
+- **Hugging Face** – Mistral-7B-Instruct via HuggingFaceHub
+- **FAISS** – Vector store for similarity search
+- **Streamlit** – Web-based interface
+- **PyMuPDF** – PDF loader
+- **YouTubeTranscriptAPI** – Extracts transcripts
+- **WikipediaLoader** – Fetches context from Wikipedia
 
 ---
 
-💡 Example Use Case
-Query:
-"Explain LangChain and its applications"
+## 📦 Installation
 
-Sources Used:
+1. Clone this repo
+   
+  git clone https://github.com/yourusername/AI-Research-Agent.git
+  
+  cd AI-Research-Agent
 
-✅ Wikipedia page on LangChain
+2. Create .env file
+   
+  cp .env.example .env
 
-✅ Uploaded PDF (LangChain whitepaper)
+  Then fill in:
+  
+  HUGGINGFACEHUB_API_TOKEN=your_huggingface_token
 
-✅ YouTube video transcript: LangChain for Developers
+3. Install dependencies
 
-Output:
-A short, clear summary citing each source with a reference like [1], [2], etc.
+  pip install -r requirements.txt
 
-📁 Project Structure
-Copy
-Edit
+4.Run the app (in Colab or locally)
+
+  streamlit run app.py
+  
+  If using Google Colab, use pyngrok to expose the port.
+
+---
+## 💡 Example Use Case
+
+**Query:**  
+`"Explain LangChain and its applications"`
+
+**Sources Used:**
+
+- ✅ Wikipedia page on LangChain  
+- ✅ Uploaded PDF (LangChain whitepaper)  
+- ✅ YouTube video transcript: *LangChain for Developers*
+
+**Output:**  
+A short, clear summary citing each source with references like `[1]`, `[2]`, etc.
+
+---
+## 📁 Project Structure
+
 AI-Research-Agent/
+
 ├── app.py
+
 ├── requirements.txt
+
 ├── .env.example
+
 ├── README.md
+
 ├── assets/
-│   └── demo_screenshot.png
+
+│ └── demo_screenshot.png
+
 └── notebooks/
-📸 Screenshot
 
-📝 License
-This project is licensed under the MIT License.
+---
 
-🙏 Acknowledgements
-LangChain
+## 📸 Screenshot
 
-Hugging Face
+![Demo Screenshot](assets/demo_screenshot.png)
 
-Streamlit
+---
 
-YouTube Transcript API
+## 📝 License
 
-✍️ Author
-Your Name
-GitHub: @yourusername
+This project is licensed under the **MIT License**.
 
+---
 
+## 🙏 Acknowledgements
 
+- [LangChain](https://github.com/langchain-ai/langchain)  
+- [Hugging Face](https://huggingface.co/)  
+- [Streamlit](https://streamlit.io/)  
+- [YouTube Transcript API](https://pypi.org/project/youtube-transcript-api/)  
 
+---
 
+## ✍️ Author
 
-
-
-
-
-
-
-
-
-
-
-
-
-ChatGPT c
+**Your Name**  
+GitHub: [@yourusername](https://github.com/yourusername)
