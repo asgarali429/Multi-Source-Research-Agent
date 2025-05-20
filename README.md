@@ -33,9 +33,9 @@ Ask any research question — it pulls insights from PDFs, Wikipedia, and YouTub
 
 1. Clone this repo
    
-  git clone https://github.com/yourusername/AI-Research-Agent.git
+  git clone https://github.com/yourusername/Multi-Source-Research-Agent.git
   
-  cd AI-Research-Agent
+  cd Multi-Source-Research-Agent
 
 2. Create .env file
    
@@ -73,22 +73,22 @@ A short, clear summary citing each source with references like `[1]`, `[2]`, etc
 ---
 ## 📁 Project Structure
 
-AI-Research-Agent/
+Multi-Source-Research-Agent/
 
 ├── app.py
 
 ├── requirements.txt
 
-├── .env.example
-
 ├── README.md
 
 ├── assets/
 
-│ └── demo_screenshot.png
+│   └── demo_screenshot.png
 
 └── notebooks/
 
+│   └── Multi_Source_Research.ipynb
+  
 ---
 
 ## 📸 Screenshot
@@ -114,5 +114,5 @@ This project is licensed under the **MIT License**.
 
 ## ✍️ Author
 
-**Your Name**  
-GitHub: [@yourusername](https://github.com/yourusername)
+**Asgarali Malpara**  
+GitHub: [@asgarali429](https://github.com/asgarali429)
