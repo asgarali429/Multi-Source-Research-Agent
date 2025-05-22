@@ -93,8 +93,7 @@ Multi-Source-Research-Agent/
 
 ## 📸 Screenshot
 
-![Demo Screenshot](assets/demo_screenshot.png)
-
+![IMG_20250521_214447.jpg](https://github.com/user-attachments/assets/d5d2600c-c7ba-4493-9c25-f242cdc1bf92)
 ---
 
 ## 📝 License
